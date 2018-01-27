@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Offside', cursive;
+    color: rgba(255, 255, 255, 0.91);
+}
+
+.numColor {
+    color: #9eff2d;
+    text-shadow: 2px 2px 8px rgba(178, 255, 87, 0.65),
+        -2px -2px 8px rgba(178, 255, 87, 0.65),
+        -2px 2px 8px rgba(178, 255, 87, 0.65),
+        2px -2px 8px rgba(178, 255, 87, 0.65);
+}
+
+
+#bg {
+    height: 100vh;
+    min-height: 700px;
+    background-color: grey;
+    background-image: radial-gradient(rgb(217, 249, 255), rgba(255, 254, 254, 0.05)), url(marissssol.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+.contentBackground {
+    background-color: rgba(41, 41, 41, 0.49);
+    padding: 25px 40px;
+    border: 1px solid rgba(208, 208, 208, 0.85);
+    border-radius: 15px;
+    box-shadow: inset 5px 5px 15px rgba(255, 255, 255, 0.5),
+        inset -5px -5px 15px rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+#zavey {
+    font-family: 'Rock Salt', cursive;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 8px rgba(178, 255, 87, 0.65),
+        -2px -2px 8px rgba(178, 255, 87, 0.65),
+        -2px 2px 8px rgba(178, 255, 87, 0.65),
+        2px -2px 8px rgba(178, 255, 87, 0.65);
+}
+
+#banner {
+    font-size: 2.1em;
+    margin-bottom: 25px;
+}
+
+#daysContainer {
+    margin: 0 auto;
+    margin-bottom: 15px;
+    font-size: 2.7em;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: rgba(41, 41, 41, 0.9);
+    padding: 10px;
+}
+
+.timeWrapper {
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: rgba(41, 41, 41, 0.9);
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+#iconWrapper2 {
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.socialMedia {
+    font-size: 1.3em;
+    text-shadow: 1px 1px 6px rgba(178, 255, 87, 0.65),
+        -1px -1px 6px rgba(178, 255, 87, 0.65),
+        -1px 1px 6px rgba(178, 255, 87, 0.65),
+        1px -1px 6px rgba(178, 255, 87, 0.65);
+}
+
+
+.fa:hover {
+    transition: .3s;
+    color: #9eff2d;
+    
+}
+
+
+
+
+
+
+@media screen and (min-width: 540px) {
+    #bg {
+        min-height: 730px;
+    }
+    #zavey {
+        font-size: 3.7em;
+    }
+    
+    #banner {
+        font-size: 2.3em;
+    }
+}
+
+
+@media screen and (min-width: 700px) {    
+    .contentBackground {
+        font-size: 1.2em;
+        min-width: 500px;
+    }
+    
+    #zavey {
+        font-size: 5.3em;
+    }
+    
+    .socialMedia {
+        font-size: 1.7em;
+    }
+    
+    #daysContainer {
+        width: 50%;
+        margin-bottom: 25px;
+    }
+    
+    #timeContainer {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .timeWrapper {
+        width: 30%;
+    }
+    
+    #banner {
+        font-size: 2.7em;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 850px) {
+    .contentBackground {
+        font-size: 1.4em;
+        min-width: 600px;
+    }
+    
+    #zavey {
+        font-size: 6.1em;
+    }
+    
+    #bg {
+        min-height: 840px;
+    }
+    .socialMedia {
+        font-size: 2em;
+    }
+    
+    #daysContainer {
+        margin-bottom: 35px;
+    }
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    #bg{
+        min-height: 880px;
+    }
+    
+    #zavey {
+        font-size: 6.3em;
+    }
+    
+    #banner {
+        margin-bottom: 35px;
+    }
+    
+    #daysContainer {
+        margin-bottom: 45px;
+    }
+    
+    .socialMedia {
+        font-size: 2.3em;
+    }
+}
+
+
+
+@media screen and (min-width: 1150px) {
+    #zavey {
+        font-size: 7.3em;
+    }
+    
+    #bg{
+        min-height: 920px;
+    }
+}
+
+
+
+
+
+
+
